@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class E03OddOccurrences {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        Map<String, Integer> counts = new LinkedHashMap<>();
+
+        String[] words = scanner.nextLine().split("\\s+");
+
+        for (int i = 0; i < words.length; i++) {
+            String wordInLowerCase = words[i].toLowerCase();
+            if (counts.containsKey(wordInLowerCase)) {
+                counts.put(wordInLowerCase, counts.get(wordInLowerCase) + 1);
+            } else {
+                counts.put(wordInLowerCase, 1);
+            }
+        }
+
+        ArrayList<String> odds = new ArrayList<>();
+        for (Map.Entry<String, Integer> entry : counts.entrySet()) {
+            if (entry.getValue() % 2 == 1) {
+                odds.add(entry.getKey());
+            }
+        }
+        for (int i = 0; i < odds.size(); i++) {
+            System.out.print(odds.get(i));
+            if (i < odds.size() - 1) {
+                System.out.print(", ");
+            }
+        }
+    }
+}
