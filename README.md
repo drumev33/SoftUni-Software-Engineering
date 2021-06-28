@@ -22,5 +22,5 @@
 | **Course**                                                                                                                         | **Link**                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3039/programming-basics-with-java-july-2020/open" > Programming Basics with Java </a>         | <a href="https://softuni.bg/certificates/details/88392/a7949e4f"> Link</a> |
-| <a href="https://softuni.bg/trainings/3134/java-fundamentals-september-2020"> Java Fundamentals </a> | <a href=""> Link</a> |
+| <a href="https://softuni.bg/trainings/3134/java-fundamentals-september-2020"> Java Fundamentals </a> | <a href="">https://softuni.bg/certificates/details/96632/afc5a2ed</a> |
 </td>
